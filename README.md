@@ -15,7 +15,7 @@ A custom `userChrome.css` theme for Firefox, meticulously designed to replicate 
 ---
 
 ## 📸 Preview
-> [Insert your screenshot of buttons and search bar here]
+Here
 
 ---
 
@@ -43,7 +43,7 @@ A custom `userChrome.css` theme for Firefox, meticulously designed to replicate 
 ---
 
 ## 🤝 Credits
-Created by **elektro** with AI assistance to ensure pixel-perfect alignment with Minecraft's design standards. 
+Created by **elektrodanyt** with AI assistance to ensure pixel-perfect alignment with Minecraft's design standards. 
 
 ---
 
