@@ -16,6 +16,7 @@ A custom `userChrome.css` theme for Firefox, meticulously designed to replicate 
 
 ## 📸 Preview
 <img width="541" height="41" alt="tab colors" src="https://github.com/user-attachments/assets/12917ff5-98de-43b8-8dec-10bd2e48a327" />
+<img width="1749" height="40" alt="url bar" src="https://github.com/user-attachments/assets/f0abda38-a224-43f5-958a-2793967ffcea" />
 
 
 ---
