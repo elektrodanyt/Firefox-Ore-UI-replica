@@ -1,0 +1,126 @@
+/* ========================================================================
+   Firefox Bedrock Edition (Ore UI)
+   ======================================================================== */
+
+:root {
+  --mc-primary-green: #48ad39;
+  --mc-primary-hover: #5bd149;
+  --mc-destructive: #b02e26;
+  --mc-ui-bg: #3c3c3c;
+  --mc-panel-bg: #4c4c4c;
+  --mc-border-dark: #1e1e1e;
+  --mc-font: "Minecraftia", "Segoe UI", sans-serif;
+}
+
+
+.tab-label, 
+#urlbar-input, 
+.toolbarbutton-text, 
+menuitem, 
+menu, 
+panel,
+label {
+  font-family: var(--mc-font) !important;
+  font-size: 10px !important;
+  text-shadow: 1px 1px 0px rgba(0,0,0,0.8) !important;
+}
+
+
+#urlbar-background,
+#urlbar-input-container,
+#searchbar,
+.tab-background,
+menupopup,
+panelview {
+  border-radius: 0px !important; 
+}
+
+
+.titlebar-buttonbox-container, 
+.titlebar-button {
+  border-radius: unset !important;
+  background: transparent !important;
+  border: none !important;
+}
+
+
+.tab-background {
+  border: 2px solid var(--mc-border-dark) !important;
+  background-color: var(--mc-ui-bg) !important;
+  transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.tabbrowser-tab[selected="true"] .tab-background {
+  background-color: var(--mc-primary-green) !important;
+  border-color: #ffffff !important;
+  box-shadow: inset -2px -4px 0px rgba(0,0,0,0.3) !important;
+}
+
+.tabbrowser-tab:hover:not([selected="true"]) .tab-background {
+  background-color: var(--mc-primary-hover) !important;
+  transform: translateY(-2px) !important;
+}
+
+
+#tabs-newtab-button,
+#new-tab-button {
+  margin-left: 4px !important;
+}
+
+#tabs-newtab-button .toolbarbutton-icon,
+#new-tab-button .toolbarbutton-icon {
+  border-radius: 0px !important;
+  background-color: var(--mc-panel-bg) !important;
+  border: 2px solid var(--mc-border-dark) !important;
+  padding: 8px !important;
+  transition: all 0.1s !important;
+}
+
+#tabs-newtab-button:hover .toolbarbutton-icon,
+#new-tab-button:hover .toolbarbutton-icon {
+  background-color: var(--mc-primary-green) !important;
+  border-color: #ffffff !important;
+  transform: scale(1.1) !important;
+}
+
+
+#urlbar {
+  --urlbar-container-height: 32px !important; 
+}
+
+#urlbar-background {
+  background-color: #232323 !important;
+  border: 2px solid var(--mc-border-dark) !important;
+  box-shadow: inset 2px 2px 0px rgba(0,0,0,0.5) !important; 
+}
+
+#urlbar[focused="true"] #urlbar-background {
+  border-color: var(--mc-primary-green) !important;
+  outline: none !important;
+}
+
+
+.toolbarbutton-1:not(#tabs-newtab-button):active {
+  transform: scale(0.9) !important;
+}
+
+.tab-close-button:hover {
+  background-color: var(--mc-destructive) !important;
+  fill: white !important;
+  border-radius: 0px !important;
+}
+
+menupopup, panel {
+  appearance: none !important;
+  background-color: var(--mc-panel-bg) !important;
+  border: 3px solid var(--mc-border-dark) !important;
+}
+
+menuitem[_moz-menuactive="true"] {
+  background-color: var(--mc-primary-green) !important;
+}
+
+#nav-bar {
+  background-color: var(--mc-ui-bg) !important;
+  border-bottom: 2px solid var(--mc-border-dark) !important;
+}
