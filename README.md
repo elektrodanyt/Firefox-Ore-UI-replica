@@ -1,6 +1,8 @@
 # ⛏️ Firefox Ore UI Theme
 
 A custom `userChrome.css` theme for Firefox, meticulously designed to replicate the **Ore UI** design system from Minecraft Bedrock Edition.
+---
+**Disclaimer:** This project is not affiliated with, endorsed by, or associated with Mojang Studios or Microsoft. Minecraft is a trademark of Mojang Synergies AB.
 
 ---
 
