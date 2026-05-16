@@ -17,10 +17,15 @@ A custom `userChrome.css` theme for Firefox, meticulously designed to replicate 
 ---
 
 ## 📸 Preview
-Tab colors
+### Tab colors
 <img width="541" height="41" alt="tab colors" src="https://github.com/user-attachments/assets/12917ff5-98de-43b8-8dec-10bd2e48a327" />
-Url bar
+### Url bar
 <img width="1749" height="40" alt="url bar" src="https://github.com/user-attachments/assets/f0abda38-a224-43f5-958a-2793967ffcea" />
+### More tabs
+<img width="1215" height="80" alt="tabs" src="https://github.com/user-attachments/assets/f2b97a17-ee99-4ee9-9868-880c4d749c3e" />
+### Context menu (showed in Russian)
+<img width="359" height="393" alt="Снимок экрана 2026-05-16 202106" src="https://github.com/user-attachments/assets/ca797148-a98a-46bb-a2f2-ed460d012444" />
+
 
 
 ---
